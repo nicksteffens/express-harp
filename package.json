@@ -1,0 +1,24 @@
+{
+  "name": "express-harp",
+  "version": "0.0.0",
+  "description": "express js using harp js with custom routers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nicksteffens/express-harp.git"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "harp"
+  ],
+  "author": "Nick Steffens <nsteffens@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicksteffens/express-harp/issues"
+  },
+  "homepage": "https://github.com/nicksteffens/express-harp"
+}
