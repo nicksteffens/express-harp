@@ -1,0 +1,408 @@
+{
+  "globals": {
+    "brave": [
+      {
+        "card": "brave",
+        "question": "Skydive v Skinny Dip (feet diving ,through clouds v water)",
+        "left": "skydive",
+        "right": "skinny-dip",
+        "images": [
+          "skydive-01.png",
+          "skydive-02.png",
+          "skydive-03.png",
+          "skydive-04.png"
+        ]
+        },
+      {
+        "card": "brave",
+        "question": "Mohawk v Mullet (hairstyles)",
+        "left": "mohawk",
+        "right": "mullet",
+        "images": [
+          "mohawk-01.png",
+          "mohawk-02.png",
+          "mohawk-03.png",
+          "mohawk-04.png"
+        ]
+        },
+      {
+        "card": "brave",
+        "question": "Pirate v Zombie (characters)",
+        "left": "pirate",
+        "right": "zombie",
+        "images": [
+          "pirate-01.png",
+          "pirate-02.png",
+          "pirate-03.png",
+          "pirate-04.png"
+        ]
+        },
+      {
+        "card": "brave",
+        "question": "Knight v Policeman (characters)",
+        "left": "knight",
+        "right": "policeman",
+        "images": [
+          "police-01.png",
+          "police-02.png",
+          "police-03.png",
+          "police-04.png"
+        ]
+        },
+      {
+        "card": "brave",
+        "question": "Karaoke V Speech (microphone v ,microphone)",
+        "left": "karaoke",
+        "right": "speech",
+        "images": [
+          "karaoke-01.png",
+          "karaoke-02.png",
+          "karaoke-03.png",
+          "karaoke-04.png"
+        ]
+        }
+    ],
+
+    "genuine": [
+      {
+        "card": "genuine",
+        "question": "Shred v Pluck (banjo v flying V ,guitar)",
+        "left": "Shred",
+        "right": "Pluck",
+        "images": [
+          "shred-01.png",
+          "shred-02.png",
+          "shred-03.png",
+          "shred-04.png"
+        ]
+        },
+      {
+        "card": "genuine",
+        "question": "Vinyl v Digital  (record album v a ,phone playing music)",
+        "left": "Vinyl",
+        "right": "Digital",
+        "images": [
+          "vinyl-01.png",
+          "vinyl-02.png",
+          "vinyl-03.png",
+          "vinyl-04.png"
+        ]
+        },
+
+      {
+        "card": "genuine",
+        "question": "Mustard v Ketchup",
+        "left": "Mustard",
+        "right": "Ketchup",
+        "images": [
+          "ketchup-01.png",
+          "ketchup-02.png",
+          "ketchup-03.png",
+          "ketchup-04.png"
+        ]
+        },
+      {
+        "card": "genuine",
+        "question": "Hail v Hail  (cab whistle v cab app)",
+        "left": "Hail",
+        "right": "Hail",
+        "images": [
+          "hail-01.png",
+          "hail-02.png",
+          "hail-03.png",
+          "hail-04.png"
+        ]
+        },
+
+      {
+        "card": "genuine",
+        "question": "Movie v Movie (ticket stub v couch)",
+        "left": "Movie",
+        "right": "Movie",
+        "images": [
+          "movie-01.png",
+          "movie-02.png",
+          "movie-03.png",
+          "movie-04.png"
+        ]
+        }
+    ],
+
+    "witty": [
+      {
+        "card": "witty",
+        "question": "Fish v organize (paper clip v paper ,clip)",
+        "left": "Fish",
+        "right": "organize",
+        "images": [
+          "fish-01.png",
+          "fish-02.png",
+          "fish-03.png",
+          "fish-04.png"
+        ]
+        },
+      {
+        "card": "witty",
+        "question": "140 v Filters  (twitter bird v ,instagram camera)",
+        "left": "140",
+        "right": "Filters",
+        "images": [
+          "filters-01.png",
+          "filters-02.png",
+          "filters-03.png",
+          "filters-04.png"
+        ]
+        },
+      {
+        "card": "witty",
+        "question": "#YOLO v #FOMO (phones social ,networking sites)",
+        "left": "YOLO",
+        "right": "FOMO",
+        "images": [
+          "yolo-01.png",
+          "yolo-02.png",
+          "yolo-03.png",
+          "yolo-04.png"
+        ]
+        },
+      {
+        "card": "witty",
+        "question": "Sloth v Kitten (astronaut sloth v ,surly cat)",
+        "left": "Sloth",
+        "right": "Kitten",
+        "images": [
+          "sloth-01.png",
+          "sloth-02.png",
+          "sloth-03.png",
+          "sloth-04.png"
+        ]
+        },
+      {
+        "card": "witty",
+        "question": "Snaps v Texts (phone images hinting ,to text and snapcaht)",
+        "left": "Snaps",
+        "right": "Texts",
+        "images": [
+          "snap-01.png",
+          "snap-02.png",
+          "snap-03.png",
+          "snap-04.png"
+        ]
+        }
+    ],
+    "dependable": [
+      {
+        "card": "dependable",
+        "question": "Wake v wake (Rooster v Phone Alarm)",
+        "left": "Wake",
+        "right": "Wake",
+        "images": [
+          "wake-01.png",
+          "wake-02.png",
+          "wake-03.png",
+          "wake-04.png"
+        ]
+        },
+      {
+        "card": "dependable",
+        "question": "Camera v Camera (phone v camera)",
+        "left": "Camera",
+        "right": "Camera",
+        "images": [
+          "camera-01.png",
+          "camera-02.png",
+          "camera-03.png",
+          "camera-04.png"
+        ]
+        },
+      {
+        "card": "dependable",
+        "question": "Match v Lighter",
+        "left": "Match",
+        "right": "Lighter",
+        "images": [
+          "light-01.png",
+          "light-02.png",
+          "light-03.png",
+          "light-04.png"
+        ]
+        },
+      {
+        "card": "dependable",
+        "question": "Chocolate v Vanilla (ice cream cones)",
+        "left": "Chocolate",
+        "right": "Vanilla",
+        "images": [
+          "choc-01.png",
+          "choc-02.png",
+          "choc-03.png",
+          "choc-04.png"
+        ]
+        },
+      {
+        "card": "dependable",
+        "question": "Meteorology vs Meteorology (App v ,window)",
+        "left": "Meteorology",
+        "right": "Meteorology",
+        "images": [
+          "meterology-01.png",
+          "meterology-02.png",
+          "meterology-03.png",
+          "meterology-04.png"
+        ]
+      }
+    ],
+    "colors": [
+      {
+        "name": "teak",
+        "id": "OP102065"
+      },
+      {
+        "name": "navy-leather",
+        "id": "OP102069"
+      },
+      {
+        "name": "natural-leather",
+        "id": "OP102067"
+      },
+      {
+        "name": "ebony",
+        "id": "OP102064"
+      },
+      {
+        "name": "cognac-leather",
+        "id": "OP102068"
+      },
+      {
+        "name": "spice",
+        "id": "OP102077"
+      },
+      {
+        "name": "blue",
+        "id": "OP102078"
+      },
+      {
+        "name": "bamboo",
+        "id": "OP102062"
+      },
+      {
+        "name": "black-leather",
+        "id": "OP102066"
+      },
+      {
+        "name": "olive",
+        "id": "OP102057"
+      },
+      {
+        "name": "royal-blue",
+        "id": "OP102048"
+      },
+      {
+        "name": "purple",
+        "id": "OP102053"
+      },
+      {
+        "name": "walnut",
+        "id": "OP102063"
+      },
+      {
+        "name": "cabernet",
+        "id": "OP102051"
+      },
+      {
+        "name": "slate",
+        "id": "OP102049"
+      },
+      {
+        "name": "chalk",
+        "id": "OP102054"
+      },
+      {
+        "name": "smoke",
+        "id": "OP102050"
+      },
+      {
+        "name": "crimson",
+        "id": "OP102060"
+      },
+      {
+        "name": "dark-teal",
+        "id": "OP102052"
+      },
+      {
+        "name": "violet",
+        "id": "OP102059"
+      },
+      {
+        "name": "navy",
+        "id": "OP102055"
+      },
+      {
+        "name": "raspberry",
+        "id": "OP102047"
+      },
+      {
+        "name": "red",
+        "id": "OP102070"
+      },
+      {
+        "name": "turquoise",
+        "id": "OP102056"
+      },
+      {
+        "name": "black",
+        "id": "OP102046"
+      }
+    ],
+    "characters": [
+      {
+        "name": "dog",
+        "description": {
+          "chosen": "You are observant, sincere, dedicated & thoughtful.",
+          "share": "You're good at reading people, just like new <span class=\"yellow\">Moto X</span>, which learns your preferences and adapts to you.",
+          "og": "I am observant, sincere, dedicated & thoughtful."
+          }
+      },
+      {
+        "name": "elephant",
+        "description": {
+          "chosen": "You are logical, trustworthy joyful, kind & mindful.",
+          "share": "And just like new <span class=\"yellow\">Moto X</span> you never forget important appointments.",
+          "og": "I am logical, trustworthyjoyful, kind & mindful."
+        }
+        },
+      {
+        "name": "fox",
+        "description": {
+          "chosen": "You are witty, charismatic, complex &amp; analytical.",
+          "share": "You're as sly as new <span class=\"yellow\">Moto X's</span> peek feature, which lets you  check messages discreetly.",
+          "og": "_og"
+        }
+        },
+      {
+        "name": "lion",
+        "description": {
+          "chosen": "You are active, serious attractive & spontaneous.",
+          "share": "Like an alpha predator, Moto X's quad core processor delivers killer results fast and efficiently.",
+          "og": "I am active, serious attractive & spontaneous. "
+        }
+        },
+      {
+        "name": "sasquatch",
+        "description": {
+          "chosen": "You are open-minded, peaceful, loyal &amp; adaptable.",
+          "share": "You're good at keeping a low profile, just like anyone who uses the new <span class=\"yellow\">Moto X's</span> wave to snooze.",
+          "og": "I am open-minded, peaceful, loyal & adaptable."
+        }
+        },
+      {
+        "name": "unicorn",
+        "description": {
+          "chosen": "You are friendly, creative,sensitive, fun & popular.",
+          "share": "And just like new <span class=\"yellow\">Moto X's</span> take a selfie feature, you're the life of the party, & everyone wants to party with a unicorn.",
+          "og": "I am friendly, creative, sensitive, fun & popular."
+        }
+        }
+    ]
+  }
+}

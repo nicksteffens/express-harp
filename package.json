@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/nicksteffens/express-harp",
   "dependencies": {
+    "errorhandler": "^1.2.2",
     "express": "^4.10.2",
-    "harp": "^0.14.0"
+    "harp": "^0.14.0",
+    "jade": "^1.7.0"
   }
 }

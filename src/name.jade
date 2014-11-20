@@ -1,0 +1,64 @@
+extends motox_is
+
+//- variables
+- var shareText = 'Moto Match = Found I made the choices and Moto made the match. Want to find yours?'
+- var twitterText = helpers.shareText(shareText, 'twitter')
+- var buyURL = helpers.buyNow(character.color)
+
+//- og tags
+block ogs
+  meta(type="og:title" content="Moto Match = Found")
+  meta(type="og:image" content="http://#{imagepath}characters/#{character.name}/#{character.color.name}.jpg")
+  meta(type="og:description" content="I made the choices and Moto made the match. Want to find yours?")
+
+  //- twitter card
+  meta(name="twitter:card" content="summary_large_image")
+  meta(name="twitter:site" content="@Motorola")
+  meta(name="twitter:creator" content="@Motorola")
+  meta(name="twitter:title" content="Your Moto Match is... The #{character.name}")
+  meta(name="twitter:description" content="#{character.description.og}")
+  meta(name="twitter:image:src" content="http://#{imagepath}characters/#{character.name}/#{character.color.name}.jpg")
+
+block content
+  .character.container-fluid(class="#{character.name}")
+
+    .row-fluid.motox-match
+      .col-xs-10.col-xs-offset-1.col-md-6.col-md-offset-3.text-center
+        p.is Your Moto Match is...
+        h2 The #{character.name}
+
+    .row-fluid.descriptions
+      .col-xs-10.col-xs-offset-1.col-md-6.col-md-offset-3.text-center
+        .chosen
+          p.description!= character.description.chosen
+        .share
+          p.description!= character.description.share
+
+
+    .row-fluid.images
+
+
+        .screen.col-md-4.col-md-offset-4.text-center
+
+          img.phone(src="images/phones/#{character.color.name}.png" alt=character.color.name)
+          img(src="images/screens/#{character.name}.png")
+          img.illustration(src="images/characters/#{character.name}.png")
+
+
+    .row-fluid.menu
+      .col-xs-10.col-xs-offset-1.col-md-6.col-md-offset-3.text-center
+        a(href="/") try again
+        a(href="https://www.motorola.com/us/motomaker?action=designNew&pid=FLEXR2&activation-type=activation-type-NO_PLAN&front-color=color-white&memory=optionMemory-16&rear-color=#{character.color.id}&accent-color=OP102033" target="_blank") buy
+
+    .row-fluid.social-share
+      .col-xs-10.col-xs-offset-1.col-md-6.col-md-offset-3.text-center
+        a.facebook(href="http://www.facebook.com/sharer/sharer.php?u=#{hostpath}" target="_blank") facebook
+        a.twitter(href="https://twitter.com/intent/tweet?url=http://yourmotomatch.com/dog-bamboo&text=#{twitterText}" target="_blank") twitter
+        a.gplus(href="https://plus.google.com/share?url=#{hostpath}") google plus
+
+
+
+
+
+
+
